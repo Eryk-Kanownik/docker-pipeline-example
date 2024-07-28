@@ -26,7 +26,7 @@ jobs:
         with:
           context: .
           push: true
-          tags: username/repository:latest
+          tags: erykkanownik/docker-pipeline
 
       - name: Log out from Docker Hub
         run: docker logout
